@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegant E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">E-Learn</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#login">Login/Sign Up</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <input type="text" class="search-bar" placeholder="Search..." />
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Unlock Your Potential</h1>
+        <p>Learn anytime, anywhere</p>
+        <div class="hero-buttons">
+          <button onclick="scrollToSection('courses')">Explore Courses</button>
+          <button onclick="scrollToSection('contact')">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="content-section">
+      <div class="about-us">
+        <h2>About Us</h2>
+        <p>
+          We are dedicated to providing high-quality, accessible online
+          education to learners worldwide. Our platform offers a diverse range
+          of courses taught by experts in their fields. Whether you're looking
+          to advance your career or explore a new interest, E-Learn is here to
+          help you achieve your goals.
+        </p>
+        <p>
+          At E-Learn, we believe in the transformative power of education. Join
+          us in the journey to expand your knowledge, enhance your skills, and
+          unleash your potential.
+        </p>
+      </div>
+    </section>
+
+    <section id="features" class="content-section">
+      <h2>Features</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-user-graduate"></i></div>
+          <h3>Expert Instructors</h3>
+          <p>Learn from industry experts</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-clock"></i></div>
+          <h3>Flexible Learning</h3>
+          <p>Study at your own pace</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Certification</h3>
+          <p>Get recognized credentials</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="content-section">
+      <h2>Popular Courses</h2>
+      <div class="courses-grid">
+        <div class="course-card">
+          <img src="imgs/c.png" alt="Course 1" />
+          <div class="course-info">
+            <h3>Introduction to C Programming</h3>
+            <p>Instructor: John Doe</p>
+            <p>★★★★☆ (4.5)</p>
+            <button class="enroll-btn">Enroll</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <img src="imgs/py.png" alt="Course 2" />
+          <div class="course-info">
+            <h3>Basic to Advanced: Python</h3>
+            <p>Instructor: Jane Smith</p>
+            <p>★★★★★ (5.0)</p>
+            <button class="enroll-btn">Enroll</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <img src="imgs/java.png" alt="Course 3" />
+          <div class="course-info">
+            <h3>Java Course for Beginners</h3>
+            <p>Instructor: Michael Brown</p>
+            <p>★★★☆☆ (3.1)</p>
+            <button class="enroll-btn">Enroll</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <img src="imgs/ml.png" alt="Course 4" />
+          <div class="course-info">
+            <h3>Introduction to Machine Learning</h3>
+            <p>Instructor: Gary Johnson</p>
+            <p>★★★★☆ (3.9)</p>
+            <button class="enroll-btn">Enroll</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <img src="imgs/dsa.png" alt="Course 5" />
+          <div class="course-info">
+            <h3>DSA with C++</h3>
+            <p>Instructor: Pat Cummins</p>
+            <p>★★★★☆ (4.0)</p>
+            <button class="enroll-btn">Enroll</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <img src="imgs/cc.png" alt="Course 6" />
+          <div class="course-info">
+            <h3>Cloud Computing</h3>
+            <p>Instructor: Jake Hill</p>
+            <p>★★★☆☆ (3.2)</p>
+            <button class="enroll-btn">Enroll</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <img src="imgs/web.png" alt="Course 7" />
+          <div class="course-info">
+            <h3>Web Development</h3>
+            <p>Instructor: Rahman</p>
+            <p>★★★★☆ (4.2)</p>
+            <button class="enroll-btn">Enroll</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <img src="imgs/ds.png" alt="Course 8" />
+          <div class="course-info">
+            <h3>Data Science using R</h3>
+            <p>Instructor: Wim Wenders</p>
+            <p>★★★★★ (5.0)</p>
+            <button class="enroll-btn">Enroll</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="content-section">
+      <h2>Testimonials</h2>
+      <div class="testimonials-flex">
+        <div class="testimonial-card">
+          <blockquote>
+            "Great learning experience! The instructors are top-notch and the
+            content is very comprehensive."
+          </blockquote>
+          <p>- Peter Griffin</p>
+        </div>
+        <div class="testimonial-card">
+          <blockquote>
+            "I love the flexibility this platform offers. I can learn at my own
+            pace and revisit the material anytime."
+          </blockquote>
+          <p>- John Wick</p>
+        </div>
+        <div class="testimonial-card">
+          <blockquote>
+            "The certification helped me get a better job. The courses are
+            practical and very well-structured."
+          </blockquote> 
+          <p>- Travis</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">Login/Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</i></a>
+              <a href="#">Instagram</i></a>
+            </div>
+        </div>
+        <div class="newsletter">
+          <h3>Newsletter Signup</h3>
+          <form>
+            <input type="email" placeholder="Your Email" required />
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <p>&copy; 2024 E-Learn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
